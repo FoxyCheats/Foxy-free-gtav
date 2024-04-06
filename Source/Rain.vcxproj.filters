@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{2a12d025-c2ec-49af-84af-2c26d0618e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{98125973-b15c-4f78-b64e-e715bece8a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Network">
+      <UniqueIdentifier>{547b214c-dac0-4e7a-a1a4-d2e2f368c24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Network\Selected Player">
+      <UniqueIdentifier>{08960776-62fc-4b6b-afa6-3717d1972d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Network\All Players">
+      <UniqueIdentifier>{1676a76c-7f82-4b6d-a8b3-f8cc505b8c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Network\Protections">
+      <UniqueIdentifier>{6fd61154-4990-489e-b75d-fd464cf1e973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Vehicle">
+      <UniqueIdentifier>{3e9c6868-8b56-47fa-8d78-c805cbb1cddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Weapons">
+      <UniqueIdentifier>{09755109-fd9a-49ef-9fec-99c6f222d06e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Other">
+      <UniqueIdentifier>{252bc725-b68e-4122-bfe5-b9bd2b7e3f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\List">
+      <UniqueIdentifier>{35bb172a-3cc1-4ea7-b674-6c2660a5d4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{e951e808-b997-4282-8ffb-ea7d6f12dae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Spawner">
+      <UniqueIdentifier>{d1b86a0c-54a9-4511-87e6-c92ae62101ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Spawner\Vehicle Spawner">
+      <UniqueIdentifier>{9d9931bb-4b76-4fe4-8a0a-830560fd4798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Spawner\Ini">
+      <UniqueIdentifier>{78fde9d6-8d9c-4031-9d26-fd0d315309bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Spawner\Maps">
+      <UniqueIdentifier>{e9de8cc6-c0bd-45e8-9638-e72dbc7a62ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Spawner\Black Hole">
+      <UniqueIdentifier>{8b1ac451-155d-4b0a-ae56-fd3974dfc5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Network\Recovery">
+      <UniqueIdentifier>{e5fe9c36-338c-4c24-a928-8df422e19332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{f2f6615d-075f-471e-a3da-2fb05e209f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Scripthook">
+      <UniqueIdentifier>{c1930a05-d89f-46dc-a751-6d130121ecfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Misc">
+      <UniqueIdentifier>{7b100a47-3152-4a91-93a5-9d4c66742339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Teleport">
+      <UniqueIdentifier>{70830d0e-0a0f-4a09-96d0-97ebbef61ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native">
+      <UniqueIdentifier>{38798552-ae7e-4898-a069-2773955dc545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{07e75196-505b-4f39-94b8-18c90d7bf6e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{27d86fda-8997-4f2f-9d59-8fea5fc0ed2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Local">
+      <UniqueIdentifier>{673b7f77-69e6-435a-9d3d-8a098d608b02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Protections.h">
+      <Filter>Features\Network\Protections</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Features\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>Features\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Other.h">
+      <Filter>Features\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectedPlayer.h">
+      <Filter>Features\Network\Selected Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Local.h">
+      <Filter>Features\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini Function.h">
+      <Filter>Features\Spawner\Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini Vehicles.h">
+      <Filter>Features\Spawner\Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Something.h">
+      <Filter>Features\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle Spawner Preview.h">
+      <Filter>Features\Spawner\Vehicle Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Features\Spawner\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackhole.h">
+      <Filter>Features\Spawner\Black Hole</Filter>
+    </ClInclude>
+    <ClInclude Include="Recovery.h">
+      <Filter>Features\Network\Recovery</Filter>
+    </ClInclude>
+    <ClInclude Include="All Players.h">
+      <Filter>Features\Network\All Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="s.h">
+      <Filter>Features\Scripthook</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Features\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Teleport.h">
+      <Filter>Features\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeCaller.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeInvoker.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHook.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="stuff.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossMapping.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="return_spoof.hpp">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Features\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\cryptopp\include\cryptopp\aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Protections.cpp">
+      <Filter>Features\Network\Protections</Filter>
+    </ClCompile>
+    <ClCompile Include="Local.cpp">
+      <Filter>Features\Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Features\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons.cpp">
+      <Filter>Features\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Other.cpp">
+      <Filter>Features\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectedPlayer.cpp">
+      <Filter>Features\Network\Selected Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini Function.cpp">
+      <Filter>Features\Spawner\Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini Vehicles.cpp">
+      <Filter>Features\Spawner\Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle Spawner Preview.cpp">
+      <Filter>Features\Spawner\Vehicle Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="Something.cpp">
+      <Filter>Features\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle Spawner sub menu.cpp">
+      <Filter>Features\Spawner\Vehicle Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Features\Spawner\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Blackhole.cpp">
+      <Filter>Features\Spawner\Black Hole</Filter>
+    </ClCompile>
+    <ClCompile Include="Recovery.cpp">
+      <Filter>Features\Network\Recovery</Filter>
+    </ClCompile>
+    <ClCompile Include="All Players.cpp">
+      <Filter>Features\Network\All Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Features\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="s.cpp">
+      <Filter>Features\Scripthook</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Features\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleport.cpp">
+      <Filter>Features\Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeInvoker.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+    <ClCompile Include="auth.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHook.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossMapping.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="types.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="return_spoof.asm">
+      <Filter>Native</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
